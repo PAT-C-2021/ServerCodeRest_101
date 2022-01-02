@@ -35,7 +35,7 @@ namespace ServerCodeRest_101_Raditya_Pratama_Putra
                 hostObjek.Description.Endpoints[0].EndpointBehaviors.Add(whb);
 
                 hostObjek.Open();
-                Console.WriteLine("Server is ready!!!!");
+                Console.WriteLine("Server is ready!!!");
                 Console.ReadLine();
                 hostObjek.Close();
             }
